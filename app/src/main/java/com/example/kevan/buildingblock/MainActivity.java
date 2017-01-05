@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         Intent intent = new Intent(getApplicationContext(),ExampleActivity.class);
                         startActivity(intent);
+                    case 4:
+                        Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
+                        startActivity(intent4);
                 }
             }
         });
