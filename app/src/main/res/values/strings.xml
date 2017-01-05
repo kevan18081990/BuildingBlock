@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BuildingBlock</string>
+    <string name="item_lst_0">Activity</string>
+    <string name="item_lst_1">Service</string>
+    <string name="item_lst_2">Broadcast Receiver</string>
+    <string name="item_lst_3">Content Provider</string>
+
+    <string-array name="array_item_lst">
+        <item>@string/item_lst_0</item>
+        <item>@string/item_lst_1</item>
+        <item>@string/item_lst_2</item>
+        <item>@string/item_lst_3</item>
+    </string-array>
+
+</resources>
