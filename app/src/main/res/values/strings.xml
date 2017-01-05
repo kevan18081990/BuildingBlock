@@ -5,6 +5,9 @@
     <string name="item_lst_2">Broadcast Receiver</string>
     <string name="item_lst_3">Content Provider</string>
     <string name="item_lst_4">Fragment Activity</string>
+    <string name="item_srs_0">Started Service</string>
+    <string name="item_srs_1">Bound Service</string>
+    <string name="item_srs_2">Intent Service</string>
 
     <string-array name="array_item_lst">
         <item>@string/item_lst_0</item>
@@ -12,6 +15,12 @@
         <item>@string/item_lst_2</item>
         <item>@string/item_lst_3</item>
         <item>@string/item_lst_4</item>
+    </string-array>
+
+    <string-array name="array_service_item_lst">
+        <item>@string/item_srs_0</item>
+        <item>@string/item_srs_1</item>
+        <item>@string/item_srs_2</item>
     </string-array>
 
 </resources>

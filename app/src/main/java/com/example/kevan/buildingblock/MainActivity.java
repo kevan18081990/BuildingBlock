@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                     case 4:
                         Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
                         startActivity(intent4);
+                    case 1:
+                        Intent intent1 = new Intent(getApplicationContext(),SelectServiceActivity.class);
+                        startActivity(intent1);
                 }
             }
         });

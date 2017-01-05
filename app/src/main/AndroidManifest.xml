@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ExampleActivity" />
-        <activity android:name=".ExampleFragmentActivity"></activity>
+        <activity android:name=".ExampleFragmentActivity" />
+        <activity android:name=".ServiceActivity" />
+
+        <service android:name=".classes.MyService" />
+
+        <activity android:name=".SelectServiceActivity"></activity>
     </application>
 
 </manifest>
