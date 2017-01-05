@@ -22,5 +22,6 @@
         <item>@string/item_srs_1</item>
         <item>@string/item_srs_2</item>
     </string-array>
+    <string name="title_activity_bind_service">BindServiceActivity</string>
 
 </resources>

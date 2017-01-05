@@ -20,8 +20,13 @@
         <activity android:name=".ServiceActivity" />
 
         <service android:name=".classes.MyService" />
+        <service android:name=".classes.BindService"/>
 
-        <activity android:name=".SelectServiceActivity"></activity>
+        <activity android:name=".SelectServiceActivity" />
+        <activity
+            android:name=".BindServiceActivity"
+            android:label="@string/title_activity_bind_service"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -34,6 +34,8 @@ public class SelectServiceActivity extends AppCompatActivity {
                         Intent intent0 = new Intent(getApplicationContext(),ServiceActivity.class);
                         startActivity(intent0);
                     case 1:
+                        Intent intent1 = new Intent(getApplicationContext(),BindServiceActivity.class);
+                        startActivity(intent1);
                     case 2:
                 }
             }
