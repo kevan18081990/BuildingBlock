@@ -19,7 +19,7 @@ import java.util.HashMap;
  */
 
 public class MyProvider extends ContentProvider {
-    public static final String PROVIDER_NAME = "com.example.contentproviderexample.MyProvider";
+    public static final String PROVIDER_NAME = "com.example.contentproviderexample.MyProvider1";
     public static final String URL = "content://" + PROVIDER_NAME + "/cte";
     public static final Uri CONTENT_URI = Uri.parse(URL);
 

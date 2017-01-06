@@ -37,7 +37,7 @@
 
         <provider
             android:name=".classes.MyProvider"
-            android:authorities="com.example.contentproviderexample.MyProvider"
+            android:authorities="com.example.contentproviderexample.MyProvider1"
             android:exported="true"
             android:multiprocess="true" >
         </provider>
