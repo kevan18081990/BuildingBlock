@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent3);
                         break;
                     case 4:
+                        //TODO: put this into activity/fragment activity
                         Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
                         startActivity(intent4);
                         break;
