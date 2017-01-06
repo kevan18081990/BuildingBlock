@@ -21,9 +21,7 @@
 
         <service android:name=".android_component.service.started_service.MyService" />
         <service android:name=".android_component.service.bound_service.BindService" />
-        <service android:name=".android_component.service.intent_service.HelloIntentService" >
-        </service>
-
+        <service android:name=".android_component.service.intent_service.HelloIntentService" />
 
         <activity android:name=".android_component.service.SelectServiceActivity" />
         <activity
@@ -37,6 +35,16 @@
                 <action android:name="com.example.CUSTOM_INTENT" />
             </intent-filter>
         </receiver>
+        <receiver android:name=".android_component.broadcast_receiver.ordered_broadcast_receiver.MyReceiver1">
+            <intent-filter android:priority="1">
+                <action android:name="com.example.ordered_broadcast.OrderedBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".android_component.broadcast_receiver.ordered_broadcast_receiver.MyReceiver2">
+            <intent-filter android:priority="2">
+                <action android:name="com.example.ordered_broadcast.OrderedBroadcast" />
+            </intent-filter>
+        </receiver>
 
         <provider
             android:name=".android_component.content_provider.content_saver.MyProvider"
@@ -47,7 +55,8 @@
         <activity android:name=".android_component.content_provider.content_saver.ContentSaverActivity" />
         <activity android:name=".android_component.content_provider.content_user.ContentUserActivity" />
         <activity android:name=".sqlite.SqliteUserActivity" />
-        <activity android:name=".android_component.service.intent_service.IntentServiceActivity"></activity>
+        <activity android:name=".android_component.service.intent_service.IntentServiceActivity" />
+        <activity android:name=".android_component.broadcast_receiver.ordered_broadcast_receiver.OrderedBroadcastActivity"></activity>
     </application>
 
 </manifest>
