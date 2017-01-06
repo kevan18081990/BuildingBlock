@@ -45,7 +45,6 @@ public class ContentUserActivity extends FragmentActivity implements LoaderManag
     @Override
     public void onLoaderReset(Loader<Cursor> arg0) {
 
-
     }
 
     @Override
