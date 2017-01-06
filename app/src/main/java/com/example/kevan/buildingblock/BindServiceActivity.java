@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class BindServiceActivity extends AppCompatActivity {
 
-    BindService localService;
+    BindService bindService;
     private boolean isBound = false;
 
     @Override
@@ -41,18 +41,31 @@ public class BindServiceActivity extends AppCompatActivity {
         }
     }
 
-    public void dispalyDate(View v) {
+    //button click event
+    public void displayDate(View v) {
         if (isBound) {
-            Date date = localService.getCurrentDate();
+            Date date = bindService.getCurrentDate();
             Toast.makeText(this, String.valueOf(date), Toast.LENGTH_SHORT).show();
         }
+    }
+    //button click event
+    public void unbindService(View v){
+        if (isBound) {
+            unbindService(connection);
+            isBound = false;
+        }
+    }
+
+    //button click event
+    public void reBindService(View v){
+        onStart();
     }
 
     private ServiceConnection connection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName className, IBinder service) {
-            BindService.LocalBinder binder = (BindService.LocalBinder) service;
-            localService = binder.getService();
+            BindService.myBinder binder = (BindService.myBinder) service;
+            bindService = binder.getService();
             isBound = true;
         }
         @Override

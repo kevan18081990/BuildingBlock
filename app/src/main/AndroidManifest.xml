@@ -20,13 +20,30 @@
         <activity android:name=".ServiceActivity" />
 
         <service android:name=".classes.MyService" />
-        <service android:name=".classes.BindService"/>
+        <service android:name=".classes.BindService" />
 
         <activity android:name=".SelectServiceActivity" />
         <activity
             android:name=".BindServiceActivity"
             android:label="@string/title_activity_bind_service"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BroadcastActivity" />
+
+        <receiver android:name=".classes.MyReceiver">
+            <intent-filter>
+                <action android:name="com.example.CUSTOM_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".classes.MyProvider"
+            android:authorities="com.example.contentproviderexample.MyProvider"
+            android:exported="true"
+            android:multiprocess="true" >
+        </provider>
+
+        <activity android:name=".ContentSaverActivity" />
+        <activity android:name=".ContentUserActivity"></activity>
     </application>
 
 </manifest>

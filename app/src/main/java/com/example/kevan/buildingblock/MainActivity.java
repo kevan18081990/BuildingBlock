@@ -34,12 +34,23 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         Intent intent = new Intent(getApplicationContext(),ExampleActivity.class);
                         startActivity(intent);
-                    case 4:
-                        Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
-                        startActivity(intent4);
+                        break;
                     case 1:
                         Intent intent1 = new Intent(getApplicationContext(),SelectServiceActivity.class);
                         startActivity(intent1);
+                        break;
+                    case 2:
+                        Intent intent2 = new Intent(getApplicationContext(),BroadcastActivity.class);
+                        startActivity(intent2);
+                        break;
+                    case 3:
+                        Intent intent3 = new Intent(getApplicationContext(),ContentSaverActivity.class);
+                        startActivity(intent3);
+                        break;
+                    case 4:
+                        Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
+                        startActivity(intent4);
+                        break;
                 }
             }
         });

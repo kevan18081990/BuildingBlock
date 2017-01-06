@@ -14,8 +14,8 @@ import java.util.Date;
 
 public class BindService extends Service {
 
-    private final IBinder binder = new LocalBinder();
-    public class LocalBinder extends Binder {
+    private final IBinder binder = new myBinder();
+    public class myBinder extends Binder {
         public BindService getService() {
             return BindService.this;
         }

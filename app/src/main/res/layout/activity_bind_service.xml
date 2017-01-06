@@ -10,5 +10,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Display Date"
-        android:onClick="dispalyDate" />
+        android:onClick="displayDate" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UnBindService"
+        android:onClick="unbindService"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ReBindService"
+        android:onClick="reBindService"/>
 </LinearLayout>
