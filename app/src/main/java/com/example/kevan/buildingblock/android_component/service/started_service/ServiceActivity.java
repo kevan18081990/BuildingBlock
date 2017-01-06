@@ -1,11 +1,11 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.service.started_service;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.kevan.buildingblock.classes.MyService;
+import com.example.kevan.buildingblock.R;
 
 public class ServiceActivity extends AppCompatActivity {
 

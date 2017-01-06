@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.activity.acitivity_lifecycle;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.kevan.buildingblock.R;
 
 //TODO: put activity lifecycle on the layout of this activity
 

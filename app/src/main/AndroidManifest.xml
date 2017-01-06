@@ -15,35 +15,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExampleActivity" />
-        <activity android:name=".ExampleFragmentActivity" />
-        <activity android:name=".ServiceActivity" />
+        <activity android:name=".android_component.activity.acitivity_lifecycle.ExampleActivity" />
+        <activity android:name=".android_component.activity.activity_with_fragment.ExampleFragmentActivity" />
+        <activity android:name=".android_component.service.started_service.ServiceActivity" />
 
-        <service android:name=".classes.MyService" />
-        <service android:name=".classes.BindService" />
+        <service android:name=".android_component.service.started_service.MyService" />
+        <service android:name=".android_component.service.bound_service.BindService" />
 
-        <activity android:name=".SelectServiceActivity" />
+        <activity android:name=".android_component.service.SelectServiceActivity" />
         <activity
-            android:name=".BindServiceActivity"
+            android:name=".android_component.service.bound_service.BindServiceActivity"
             android:label="@string/title_activity_bind_service"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BroadcastActivity" />
+        <activity android:name=".android_component.broadcast_receiver.simple_broadcast_receiver.BroadcastActivity" />
 
-        <receiver android:name=".classes.MyReceiver">
+        <receiver android:name=".android_component.broadcast_receiver.simple_broadcast_receiver.MyReceiver">
             <intent-filter>
                 <action android:name="com.example.CUSTOM_INTENT" />
             </intent-filter>
         </receiver>
 
         <provider
-            android:name=".classes.MyProvider"
+            android:name=".android_component.content_provider.content_saver.MyProvider"
             android:authorities="com.example.contentproviderexample.MyProvider1"
             android:exported="true"
             android:multiprocess="true" >
         </provider>
 
-        <activity android:name=".ContentSaverActivity" />
-        <activity android:name=".ContentUserActivity"></activity>
+        <activity android:name=".android_component.content_provider.content_saver.ContentSaverActivity" />
+        <activity android:name=".android_component.content_provider.content_user.ContentUserActivity"></activity>
     </application>
 
 </manifest>

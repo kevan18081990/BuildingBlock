@@ -8,6 +8,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.kevan.buildingblock.android_component.activity.acitivity_lifecycle.ExampleActivity;
+import com.example.kevan.buildingblock.android_component.activity.activity_with_fragment.ExampleFragmentActivity;
+import com.example.kevan.buildingblock.android_component.broadcast_receiver.simple_broadcast_receiver.BroadcastActivity;
+import com.example.kevan.buildingblock.android_component.content_provider.content_saver.ContentSaverActivity;
+import com.example.kevan.buildingblock.android_component.service.SelectServiceActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private ListView lstView;

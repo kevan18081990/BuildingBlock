@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.activity.acitivity_lifecycle;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

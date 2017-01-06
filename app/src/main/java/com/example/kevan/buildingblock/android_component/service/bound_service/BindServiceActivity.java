@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.service.bound_service;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.kevan.buildingblock.classes.BindService;
+import com.example.kevan.buildingblock.R;
 
 import java.util.Date;
 

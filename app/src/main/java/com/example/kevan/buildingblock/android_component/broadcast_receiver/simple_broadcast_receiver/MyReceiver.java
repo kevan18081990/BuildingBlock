@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock.classes;
+package com.example.kevan.buildingblock.android_component.broadcast_receiver.simple_broadcast_receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

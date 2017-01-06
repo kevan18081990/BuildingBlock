@@ -1,10 +1,10 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.activity.activity_with_fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.kevan.buildingblock.classes.FooFragment;
+import com.example.kevan.buildingblock.R;
 
 public class ExampleFragmentActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.service;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.kevan.buildingblock.R;
+import com.example.kevan.buildingblock.android_component.service.started_service.ServiceActivity;
+import com.example.kevan.buildingblock.android_component.service.bound_service.BindServiceActivity;
 
 public class SelectServiceActivity extends AppCompatActivity {
 

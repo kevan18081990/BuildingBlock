@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock.classes;
+package com.example.kevan.buildingblock.android_component.activity.activity_with_fragment;
 
 import android.app.Activity;
 import android.content.Context;

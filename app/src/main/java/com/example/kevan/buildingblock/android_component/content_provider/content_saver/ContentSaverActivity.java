@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.content_provider.content_saver;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.kevan.buildingblock.classes.MyProvider;
+import com.example.kevan.buildingblock.android_component.content_provider.content_user.ContentUserActivity;
+import com.example.kevan.buildingblock.R;
 
 public class ContentSaverActivity extends AppCompatActivity {
 

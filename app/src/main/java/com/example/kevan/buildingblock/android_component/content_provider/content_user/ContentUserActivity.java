@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock;
+package com.example.kevan.buildingblock.android_component.content_provider.content_user;
 
 import android.database.Cursor;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.kevan.buildingblock.R;
 
 public class ContentUserActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
     TextView resultView=null;

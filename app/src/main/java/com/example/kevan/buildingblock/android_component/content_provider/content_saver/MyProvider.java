@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock.classes;
+package com.example.kevan.buildingblock.android_component.content_provider.content_saver;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

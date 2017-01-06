@@ -1,4 +1,4 @@
-package com.example.kevan.buildingblock.classes;
+package com.example.kevan.buildingblock.android_component.service.bound_service;
 
 import android.app.Service;
 import android.content.Intent;
