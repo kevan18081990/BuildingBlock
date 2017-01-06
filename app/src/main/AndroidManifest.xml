@@ -21,6 +21,9 @@
 
         <service android:name=".android_component.service.started_service.MyService" />
         <service android:name=".android_component.service.bound_service.BindService" />
+        <service android:name=".android_component.service.intent_service.HelloIntentService" >
+        </service>
+
 
         <activity android:name=".android_component.service.SelectServiceActivity" />
         <activity
@@ -39,11 +42,12 @@
             android:name=".android_component.content_provider.content_saver.MyProvider"
             android:authorities="com.example.contentproviderexample.MyProvider1"
             android:exported="true"
-            android:multiprocess="true" >
-        </provider>
+            android:multiprocess="true" />
 
         <activity android:name=".android_component.content_provider.content_saver.ContentSaverActivity" />
-        <activity android:name=".android_component.content_provider.content_user.ContentUserActivity"></activity>
+        <activity android:name=".android_component.content_provider.content_user.ContentUserActivity" />
+        <activity android:name=".sqlite.SqliteUserActivity" />
+        <activity android:name=".android_component.service.intent_service.IntentServiceActivity"></activity>
     </application>
 
 </manifest>
