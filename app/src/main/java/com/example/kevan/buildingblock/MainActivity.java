@@ -8,11 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.kevan.buildingblock.android_component.activity.acitivity_lifecycle.ExampleActivity;
-import com.example.kevan.buildingblock.android_component.activity.activity_with_fragment.ExampleFragmentActivity;
-import com.example.kevan.buildingblock.android_component.broadcast_receiver.simple_broadcast_receiver.BroadcastActivity;
-import com.example.kevan.buildingblock.android_component.content_provider.content_saver.ContentSaverActivity;
-import com.example.kevan.buildingblock.android_component.service.SelectServiceActivity;
+import com.example.kevan.buildingblock.android_component.AndroidComponentActivity;
+import com.example.kevan.buildingblock.firebase.FirebaseActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void findViews(){
         lstView = (ListView) findViewById(R.id.lstView);
-        String[] arrItemLst = getResources().getStringArray(R.array.array_item_lst);
+        String[] arrItemLst = getResources().getStringArray(R.array.array_main_item_lst);
         arrayAdapter = new ArrayAdapter(this,R.layout.item_lstview,arrItemLst);
         lstView.setAdapter(arrayAdapter);
         lstView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -38,25 +35,12 @@ public class MainActivity extends AppCompatActivity {
                 switch(i)
                 {
                     case 0:
-                        Intent intent = new Intent(getApplicationContext(),ExampleActivity.class);
+                        Intent intent = new Intent(getApplicationContext(),AndroidComponentActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
-                        Intent intent1 = new Intent(getApplicationContext(),SelectServiceActivity.class);
+                        Intent intent1 = new Intent(getApplicationContext(),FirebaseActivity.class);
                         startActivity(intent1);
-                        break;
-                    case 2:
-                        Intent intent2 = new Intent(getApplicationContext(),BroadcastActivity.class);
-                        startActivity(intent2);
-                        break;
-                    case 3:
-                        Intent intent3 = new Intent(getApplicationContext(),ContentSaverActivity.class);
-                        startActivity(intent3);
-                        break;
-                    case 4:
-                        //TODO: put this into activity/fragment activity
-                        Intent intent4 = new Intent(getApplicationContext(),ExampleFragmentActivity.class);
-                        startActivity(intent4);
                         break;
                 }
             }

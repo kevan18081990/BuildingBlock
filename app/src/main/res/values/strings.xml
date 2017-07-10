@@ -8,6 +8,8 @@
     <string name="item_srs_0">Started Service</string>
     <string name="item_srs_1">Bound Service</string>
     <string name="item_srs_2">Intent Service</string>
+    <string name="item_main_0">App Component</string>
+    <string name="item_main_1">Firebase</string>
 
     <string-array name="array_item_lst">
         <item>@string/item_lst_0</item>
@@ -17,11 +19,18 @@
         <item>@string/item_lst_4</item>
     </string-array>
 
+
+    <string-array name="array_main_item_lst">
+        <item>@string/item_main_0</item>
+        <item>@string/item_main_1</item>
+    </string-array>
+
     <string-array name="array_service_item_lst">
         <item>@string/item_srs_0</item>
         <item>@string/item_srs_1</item>
         <item>@string/item_srs_2</item>
     </string-array>
     <string name="title_activity_bind_service">BindServiceActivity</string>
+    <string name="title_activity_android_component">AndroidComponentActivity</string>
 
 </resources>

@@ -56,7 +56,11 @@
         <activity android:name=".android_component.content_provider.content_user.ContentUserActivity" />
         <activity android:name=".sqlite.SqliteUserActivity" />
         <activity android:name=".android_component.service.intent_service.IntentServiceActivity" />
-        <activity android:name=".android_component.broadcast_receiver.ordered_broadcast_receiver.OrderedBroadcastActivity"></activity>
+        <activity android:name=".android_component.broadcast_receiver.ordered_broadcast_receiver.OrderedBroadcastActivity" />
+        <activity
+            android:name=".android_component.AndroidComponentActivity"
+            android:label="@string/title_activity_android_component" />
+        <activity android:name=".firebase.FirebaseActivity"></activity>
     </application>
 
 </manifest>
